@@ -108,7 +108,7 @@ If you use this code, we would be grateful if you cite this repository as
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {[\url{https://github.com/charlespwd/project-title}]},
-  commit = {xxx}
+  commit = {3c7a8c5}
 }
 ```
 
