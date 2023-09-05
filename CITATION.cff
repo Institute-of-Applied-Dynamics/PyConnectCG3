@@ -4,14 +4,7 @@ authors:
 - family-names: "Institute of Applied Dynamics Friedrich-Alexander-Universität Erlangen-Nürnberg"
 title: "PyConnectCG3"
 version: 1.0.0
+commit: 3c7a8c5
 date-released: 2023-09-04
 url: "https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3"
-preferred-citation:
-  type: misc
-  authors:
-  - family-names: "Institute of Applied Dynamics Friedrich-Alexander-Universität Erlangen-Nürnberg"
-  title: "PyConnectCG3"
-  version: 1.0.0
-  commit: 3c7a8c5
-  date-released: 2023-09-04
-  url: "https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3"
+
