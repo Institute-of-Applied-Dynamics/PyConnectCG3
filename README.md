@@ -101,14 +101,13 @@ Once you collected data you can execute any calibration method. Have a look insi
 
 If you use this code, we would be grateful if you cite this repository as 
 ```
-@misc{PyConnectCG3,
-  author = {Institute of Applied Dynamics -- Friedrich-Alexander-Universität Erlangen-Nürnberg},
-  title = {PyConnectCG3},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {[\url{[https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3]}]},
-  commit = {3c7a8c5}
+@software{PyConnectCG3,
+author = {Institute of Applied Dynamics Friedrich-Alexander-Universität Erlangen-Nürnberg},
+month = sep,
+title = {{PyConnectCG3}},
+url = {https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3},
+version = {1.0.0},
+year = {2023}
 }
 ```
 
