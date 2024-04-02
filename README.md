@@ -25,10 +25,10 @@ To connect to the CyberGlove via a Wifi network as in the follwowing schematic, 
 
 | <p align="center"> ![Schematic representation of a network consisting of a router, computer and the device.](figures/example-network.jpg) </p> |
 | :--: |
-| *Schematic representation of a network consisting of a router, computer and a decive. Figure is taken from the CyberGlove III Quick Start guide[4].* |
+| *Schematic representation of a network consisting of a router, computer and a decive. Figure is taken from the CyberGlove III Quick Start guide[^4].* |
 
 The default port is 49500.
-Specify the port in the `glove.py` module to use any other port.
+Specify the port in the `glove.py` module to use any other port.^
 
 The WiFi-network’s name (here _cg3wireless_), the static IP address of the computer (here _192.168.1.2_) and the port (here _495000_) need to be written to the text file `CG3_CONFIG.txt` on the flash card of the CyberGlove:
 
@@ -99,7 +99,7 @@ title = {{PyConnectCG3}},
 url = {https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3},
 version = {1.0.0},
 year = {2023}
-},
+}
 ```
 and the associated paper[^3] (the code was published with) as 
 ```
@@ -113,7 +113,7 @@ and the associated paper[^3] (the code was published with) as
   pages    = "",
   doi      = {10.1109/JSEN.2024.3376606},
   comment  = "preprint" 
-}.
+}
 ```
 
 
