@@ -2,7 +2,7 @@
 
 Repository with the code to communicate with and calibrate the CyberGlove III using Python. 
 
-The here published code can be used to establish a connection to the CyberGlove III (Cyberglove Systems LLC, San Jose California, [Homepage](http://www.cyberglovesystems.com "Cyberglove Systems LLC Homepage")). Furthermore, fundamental functions are provided to implement different calibration procedures. The code was developed as part of two Bachelor theses at the Institute of Applied Dynamics at the Friedrich-Alexander-Universität Erlangen-Nürnberg in Germany [^1][^2].
+The here published code can be used to establish a connection to the CyberGlove III (Cyberglove Systems LLC, San Jose California, [Homepage](http://www.cyberglovesystems.com "Cyberglove Systems LLC Homepage")). Furthermore, fundamental functions are provided to implement different calibration procedures. The code was developed as part of two Bachelor theses at the Institute of Applied Dynamics at the Friedrich-Alexander-Universität Erlangen-Nürnberg in Germany [^1][^2]. It was mainly used in [^3], with which it was published.
 
 
 ## Prerequisites
@@ -90,16 +90,7 @@ for _ in range(10):
 gl.write_continuous_datasets("output.txt")
 ```
 
-If you want to have a continuous capturing method with different behavior, you can create your own method of function based on `write_continuous_datasets` in `glove.py`.
-
-### Calibrating the glove
-
-Once you collected data you can execute any calibration method. Have a look inside `method_1.py` to `method_3.py`, where you can see how to call the calibration function with fictional data.
-
-
-## Citing this repository
-
-If you use this code, we would be grateful if you cite this repository as 
+If you use this code, we would be grateful if you cite it as 
 ```
 @software{PyConnectCG3,
 author = {Institute of Applied Dynamics Friedrich-Alexander-Universität Erlangen-Nürnberg},
@@ -108,13 +99,29 @@ title = {{PyConnectCG3}},
 url = {https://github.com/Institute-of-Applied-Dynamics/PyConnectCG3},
 version = {1.0.0},
 year = {2023}
-}
+},
+```
+and the associated paper[^3] (the code was published with) as 
+```
+@article{heinrich2024,
+  author   = "Simon Heinrich and Johannes Michaelis and Isabella Reiher and Birte Coppers and Markus Lohmayer and Elisa Fleischmann and Arnd Kleyer and Georg Schett and Ann-Sophie de Craemer and Dirk Elewaut and Sigrid Leyendecker and Anna-Maria Liphardt",
+  title    = "Comparison and Improvement of CyberGlove III Calibration Methods",
+  journal  = "IEEE Sensors",
+  year     = 2024,
+  volume   = "",
+  number   = "",
+  pages    = "",
+  doi      = {10.1109/JSEN.2024.3376606},
+  comment  = "preprint" 
+}.
 ```
 
 
 ## References
 
-[^1]: Michaelis, J. "Development of a python-based communication interface for CyberGlove III and comparison of calibration methods", bachelor thesis, Institute of Applied Dynamics --- Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany, 2022
-[^2]: Reiher, I. "On the advanced calibration of CyberGlove III and its applicability to rheumatic patients", bachelor thesis, Institute of Applied Dynamics --- Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany, 2022
+[^1]: Michaelis J. "Development of a python-based communication interface for CyberGlove III and comparison of calibration methods", bachelor thesis, Institute of Applied Dynamics --- Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany, 2022
+[^2]: Reiher I. "On the advanced calibration of CyberGlove III and its applicability to rheumatic patients", bachelor thesis, Institute of Applied Dynamics --- Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany, 2022
+[^3]: Heinrich S, Michaelis J, Reiher I, Coppers B, Lohmayer M, Fleischmann E, Kleyer A, Schett G, de Craemer A-S, Elewaut D, Leyendecker S, Liphardt A-M. "Comparison and Improvement of CyberGlove III Calibration Methods", IEEE Sensors, DOI:[10.1109/JSEN.2024.3376606], *preprint*
 [^4]: Cyberglove Systems LLC "CyberGlove III Quick Start", [http://www.cyberglovesystems.com/support](http://www.cyberglovesystems.com/support), 2010
 [^5]: Cyberglove Systems LLC "CyberGlove III MOCAP Glove - User and Programmer Guide", [http://www.cyberglovesystems.com/support](http://www.cyberglovesystems.com/support)
+
