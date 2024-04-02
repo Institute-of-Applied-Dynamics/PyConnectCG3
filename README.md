@@ -106,7 +106,7 @@ and the associated paper[^3] (the code was published with) as
 @article{heinrich2024,
   author   = "Simon Heinrich and Johannes Michaelis and Isabella Reiher and Birte Coppers and Markus Lohmayer and Elisa Fleischmann and Arnd Kleyer and Georg Schett and Ann-Sophie de Craemer and Dirk Elewaut and Sigrid Leyendecker and Anna-Maria Liphardt",
   title    = "Comparison and Improvement of CyberGlove III Calibration Methods",
-  journal  = "IEEE Sensors",
+  journal  = "IEEE Sensors Journal",
   year     = 2024,
   volume   = "",
   number   = "",
